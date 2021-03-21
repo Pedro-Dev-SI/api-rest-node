@@ -5,7 +5,7 @@ const router = express.Router();
 //RETORNA TODOS OS PEDIDOS
 router.get('/', (req, res, next) => {
    res.status(200).send({
-      message: 'Return requests'
+      message: 'Return all requests'
    });
 });
 
